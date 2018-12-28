@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+.full-width {
+  width: 100%;
+  float: left;
+  background: url('../img/bg2.jpg');
+  min-height: 100vh;
+  min-width: 250px;
+  font-family: 'Fira Sans', serif;
+  font-weight: lighter;
+  height: auto;
+  background-repeat: none;
+  background-size: cover;
+}
+/*:lang(ru) 	{
+    font-family: 'Fira Sans', serif;
+    font-weight: lighter;
+}*/
+
+.btn-primary {
+  color: #fff;
+  background-color: olive;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgb(210, 210, 190);
+  border-color: olive;
+}
+
+p, h2, h3, .two-left, .form-horizontal {
+  margin-left: 2%;
+}
+
+p, ul {
+  margin-right: 5%;
+}
+
+.navbar {
+  background: rgba(236, 237, 222, 0.95);
+  font-weight: 400;
+  border: 1px solid olive;
+  box-shadow: 10px 10px 8px rgba(209, 212, 191, 0.9);
+  border-bottom-right-radius: 30px 15px;
+}
+
+.navbar-nav li a:hover, .navbar-nav>.active>a {
+  color: #fff !important;
+  background-color: rgb(210, 210, 190) !important;
+  background-image: none !important;
+}
+
+.wrap {
+  font-weight: 100;
+  border: 1px solid olive;
+  padding: 10px;
+  border-bottom-right-radius: 50px 20px;
+  box-shadow: 10px 10px 8px rgba(209, 212, 191, 0.9);
+  background: rgba(236, 237, 222, 0.9);
+  min-height: 609.4px;
+}
+
+@media (max-width: 991px) {
+  p, h2, h3, .two-left, .form-horizontal {
+    margin-left: 4%;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  p, ul {
+    margin-right: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  label {
+    margin-left: 5%;
+  }
+}
