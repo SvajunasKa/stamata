@@ -1,0 +1,25 @@
+# htpasswd
+.htpasswd
+
+# Mac mess
+.DS_Store
+
+# Symfony directories
+.idea/
+nbproject/
+vendor/
+
+# Vagrant
+.vagrant
+
+# Settings
+app/config/parameters.yml
+
+# Cache
+var/cache/
+var/logs/
+var/sessions/
+
+node_modules/
+
+web/build/
